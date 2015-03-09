@@ -19,6 +19,8 @@
  * == END LICENSE ==
  *
  * Serbian (Cyrillic) language file.
+ * Translated and designed NEOART doo,  neoartsrbija@gmail.com
+ * http//www.neoart.rs/
  */
 
 var FCKLang =
@@ -89,9 +91,8 @@ Find				: "Претрага",
 Replace				: "Замена",
 SpellCheck			: "Провери спеловање",
 UniversalKeyboard	: "Универзална тастатура",
-PageBreakLbl		: "Page Break",	//MISSING
-PageBreak			: "Insert Page Break",	//MISSING
-
+PageBreakLbl		: "Прелом стране",
+PageBreak			: "Унеси прелом стране",	
 Form			: "Форма",
 Checkbox		: "Поље за потврду",
 RadioButton		: "Радио-дугме",
@@ -101,14 +102,13 @@ HiddenField		: "Скривено поље",
 Button			: "Дугме",
 SelectionField	: "Изборно поље",
 ImageButton		: "Дугме са сликом",
-
-FitWindow		: "Maximize the editor size",	//MISSING
+FitWindow		: "Повећај величину едитора",	
 
 // Context Menu
 EditLink			: "Промени линк",
-CellCM				: "Cell",	//MISSING
-RowCM				: "Row",	//MISSING
-ColumnCM			: "Column",	//MISSING
+CellCM				: "Ћелија",	
+RowCM				: "Ред",
+ColumnCM			: "Колона",	
 InsertRow			: "Унеси ред",
 DeleteRows			: "Обриши редове",
 InsertColumn		: "Унеси колону",
@@ -117,7 +117,7 @@ InsertCell			: "Унеси ћелије",
 DeleteCells			: "Обриши ћелије",
 MergeCells			: "Спој ћелије",
 SplitCell			: "Раздвоји ћелије",
-TableDelete			: "Delete Table",	//MISSING
+TableDelete			: "Обриши табелу",
 CellProperties		: "Особине ћелије",
 TableProperties		: "Особине табеле",
 ImageProperties		: "Особине слике",
@@ -134,20 +134,20 @@ SelectionFieldProp	: "Особине изборног поља",
 TextareaProp		: "Особине зоне текста",
 FormProp			: "Особине форме",
 
-FontFormats			: "Normal;Formatirano;Adresa;Heading 1;Heading 2;Heading 3;Heading 4;Heading 5;Heading 6",		//REVIEW : Check _getfontformat.html
+FontFormats			: "Normal;Formatirano;Adresa;Heading 1;Heading 2;Heading 3;Heading 4;Heading 5;Heading 6",		
 
 // Alerts and Messages
 ProcessingXHTML		: "Обрађујем XHTML. Maлo стрпљења...",
-Done				: "Завршио",
+Done				: "Завршено", // од Завршио до завршено
 PasteWordConfirm	: "Текст који желите да налепите копиран је из Worda. Да ли желите да буде очишћен од формата пре лепљења?",
 NotCompatiblePaste	: "Ова команда је доступна само за Интернет Екплорер од верзије 5.5. Да ли желите да налепим текст без чишћења?",
 UnknownToolbarItem	: "Непозната ставка toolbara \"%1\"",
 UnknownCommand		: "Непозната наредба \"%1\"",
 NotImplemented		: "Наредба није имплементирана",
 UnknownToolbarSet	: "Toolbar \"%1\" не постоји",
-NoActiveX			: "Your browser's security settings could limit some features of the editor. You must enable the option \"Run ActiveX controls and plug-ins\". You may experience errors and notice missing features.",	//MISSING
-BrowseServerBlocked : "The resources browser could not be opened. Make sure that all popup blockers are disabled.",	//MISSING
-DialogBlocked		: "It was not possible to open the dialog window. Make sure all popup blockers are disabled.",	//MISSING
+NoActiveX			: "Сигурност вашег браузера не дозвољава одређене функције едитора. Морате упалити опцију \"Run ActiveX controls and plug-ins\". како бих избегли у дудућности овакве грешке.",	
+BrowseServerBlocked : "Ресурси браузера не дозвољавају отварање фајлова. Молимо проверите да ли је ПопУп блокиран.",
+DialogBlocked		: "Није могуће отворити дијалог прзор. Проверите да ли сте угасили блокаде на Поп уп.",	
 
 // Dialogs
 DlgBtnOK			: "OK",
@@ -229,7 +229,7 @@ DlgLnkURL			: "УРЛ",
 DlgLnkAnchorSel		: "Одабери сидро",
 DlgLnkAnchorByName	: "По називу сидра",
 DlgLnkAnchorById	: "Пo Ид-jу елемента",
-DlgLnkNoAnchors		: "<Нема доступних сидра>",		//REVIEW : Change < and > with ( and )
+DlgLnkNoAnchors		: "<Нема доступних сидра>",		
 DlgLnkEMail			: "Адреса електронске поште",
 DlgLnkEMailSubject	: "Наслов",
 DlgLnkEMailBody		: "Садржај поруке",
@@ -262,7 +262,7 @@ DlgLnkPopTop		: "Од врха екрана (пиксела)",
 DlnLnkMsgNoUrl		: "Унесите УРЛ линка",
 DlnLnkMsgNoEMail	: "Откуцајте адресу електронске поште",
 DlnLnkMsgNoAnchor	: "Одаберите сидро",
-DlnLnkMsgInvPopName	: "The popup name must begin with an alphabetic character and must not contain spaces",	//MISSING
+DlnLnkMsgInvPopName	: "Искакајући прозор мора да починје са алфабетским словом, никако размаком!",	
 
 // Color Dialog
 DlgColorTitle		: "Одаберите боју",
@@ -293,7 +293,7 @@ DlgTableHeight		: "Висина",
 DlgTableCellSpace	: "Ћелијски простор",
 DlgTableCellPad		: "Размак ћелија",
 DlgTableCaption		: "Наслов табеле",
-DlgTableSummary		: "Summary",	//MISSING
+DlgTableSummary		: "Укупно",
 
 // Table Cell Dialog
 DlgCellTitle		: "Особине ћелије",
@@ -381,9 +381,9 @@ IeSpellDownload			: "Провера спеловања није инсталир
 // Button Dialog
 DlgButtonText		: "Текст (вредност)",
 DlgButtonType		: "Tип",
-DlgButtonTypeBtn	: "Button",	//MISSING
-DlgButtonTypeSbm	: "Submit",	//MISSING
-DlgButtonTypeRst	: "Reset",	//MISSING
+DlgButtonTypeBtn	: "Дугме",	
+DlgButtonTypeSbm	: "Пошаљи",	
+DlgButtonTypeRst	: "Ресетуј",	
 
 // Checkbox and Radio Button Dialogs
 DlgCheckboxName		: "Назив",
@@ -432,10 +432,10 @@ DlgHiddenValue	: "Вредност",
 // Bulleted List Dialog
 BulletedListProp	: "Особине Bulleted листе",
 NumberedListProp	: "Особине набројиве листе",
-DlgLstStart			: "Start",	//MISSING
+DlgLstStart			: "Старт",
 DlgLstType			: "Тип",
 DlgLstTypeCircle	: "Круг",
-DlgLstTypeDisc		: "Disc",	//MISSING
+DlgLstTypeDisc		: "Опис",	
 DlgLstTypeSquare	: "Квадрат",
 DlgLstTypeNumbers	: "Бројеви (1, 2, 3)",
 DlgLstTypeLCase		: "мала слова (a, b, c)",
@@ -455,15 +455,15 @@ DlgDocLangDirLTR	: "Слева надесно (LTR)",
 DlgDocLangDirRTL	: "Здесна налево (RTL)",
 DlgDocLangCode		: "Шифра језика",
 DlgDocCharSet		: "Кодирање скупа карактера",
-DlgDocCharSetCE		: "Central European",	//MISSING
-DlgDocCharSetCT		: "Chinese Traditional (Big5)",	//MISSING
-DlgDocCharSetCR		: "Cyrillic",	//MISSING
-DlgDocCharSetGR		: "Greek",	//MISSING
-DlgDocCharSetJP		: "Japanese",	//MISSING
-DlgDocCharSetKR		: "Korean",	//MISSING
-DlgDocCharSetTR		: "Turkish",	//MISSING
-DlgDocCharSetUN		: "Unicode (UTF-8)",	//MISSING
-DlgDocCharSetWE		: "Western European",	//MISSING
+DlgDocCharSetCE		: "Централно Европски",	
+DlgDocCharSetCT		: "Кинески традиционал (Big5)",	
+DlgDocCharSetCR		: "Ћирилични",	
+DlgDocCharSetGR		: "Грчки",	
+DlgDocCharSetJP		: "Јапански",	
+DlgDocCharSetKR		: "Кореански",	
+DlgDocCharSetTR		: "Турски",	
+DlgDocCharSetUN		: "Уницоде (UTF-8)",	
+DlgDocCharSetWE		: "Западно Европски",	
 DlgDocCharSetOther	: "Остала кодирања скупа карактера",
 
 DlgDocDocType		: "Заглавље типа документа",
@@ -493,12 +493,12 @@ DlgTemplatesTitle	: "Обрасци за садржај",
 DlgTemplatesSelMsg	: "Молимо Вас да одаберете образац који ће бити примењен на страницу (тренутни садржај ће бити обрисан):",
 DlgTemplatesLoading	: "Учитавам листу образаца. Мало стрпљења...",
 DlgTemplatesNoTpl	: "(Нема дефинисаних образаца)",
-DlgTemplatesReplace	: "Replace actual contents",	//MISSING
+DlgTemplatesReplace	: "Замени тренутни садржај",	
 
 // About Dialog
 DlgAboutAboutTab	: "О едитору",
 DlgAboutBrowserInfoTab	: "Информације о претраживачу",
-DlgAboutLicenseTab	: "License",	//MISSING
+DlgAboutLicenseTab	: "Лиценца",
 DlgAboutVersion		: "верзија",
 DlgAboutInfo		: "За више информација посетите"
 };
